@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User Registration"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="30dp" />
+
+    <EditText
+        android:id="@+id/etRegUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Username"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etRegPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        android:layout_marginTop="10dp" />
+
+    <EditText
+        android:id="@+id/etRegConfirmPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:id="@+id/btnDoRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create Account"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back to Login"
+        android:textColor="#0000FF"
+        android:layout_marginTop="20dp"
+        android:onClick="finishActivity" />
+
+</LinearLayout>
